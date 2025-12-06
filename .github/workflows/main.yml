@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: CheckoutBackendq
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
 
       - name: Setup DependencyBackendq
         run: |
